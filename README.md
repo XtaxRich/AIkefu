@@ -1,25 +1,17 @@
 # AIkefu
 
-面向本地生活高风险服务场景的执行 Harness 与持续进化服务智能体研究仓库。
+本仓库用于承载毕业论文《面向本地生活履约异常场景的执行 Harness 与持续进化服务智能体研究》的开发基线。
 
-## 当前用途
-主分支只保留论文级开发文档，不保留低质量占位代码。
+当前主分支只保留论文级文档，不保留占位代码。这样做的目标是先把研究问题、模块边界、数据契约、评估协议和实验设计固化，再交给更强模型分模块实现。
 
-## 研究焦点
-- 执行 Harness
-- Policy Graph
-- Clarification before action
-- Action Gating
-- Process Trace and Eval
-- Experience Loop
-- Simulator
-
-## 主战场场景
-- 催上门
-- 迟到
-- 改期
-- 爽约
+## 当前研究范围
+- 主场景：催上门、迟到、改期、爽约
+- 主对象：执行 Harness
+- 增强轴：持续进化
+- 评估重心：过程合规、异常恢复、业务闭环、经验回流
 
 ## 使用方式
-后续实现由其他模型按 `docs/60-module-handoffs.md` 分模块重建。
-所有实现以 `docs/40-data-and-eval-spec.md` 和 `docs/50-reproduction-and-experiment-plan.md` 为准。
+1. 先阅读 `docs/README.md` 了解总结构。
+2. 再进入各主题目录阅读 README 和编号子文档。
+3. 后续实现必须以 `40-data-eval` 与 `50-experiments` 为准。
+4. 模块开发优先参考 `60-handoffs`。
