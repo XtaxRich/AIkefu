@@ -18,7 +18,7 @@ Build experience extraction and strategy-memory update flow.
 ## Simulator
 Build synthetic cases and perturbation injection.
 
-## Rule for implementers
+## Rule for all implementers
 Every module must define:
 - inputs
 - outputs

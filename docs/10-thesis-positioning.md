@@ -1,25 +1,17 @@
 # 10 Thesis Positioning
 
-## Working title
+## Title
 Execution Harness for Local-Service Fulfillment Exceptions.
 
 ## Focus
-This thesis studies execution quality, not generic dialogue quality.
+This thesis studies execution, not generic dialogue quality.
 
-## Main questions
+## Questions
 1. How can an agent follow service policy under missing information and tool dependence?
-2. How can outer-layer feedback improve the system over time?
+2. How can feedback improve the outer strategy layer over time?
 
-## Main scene
+## Scene
 - urge arrival
 - delay
 - reschedule
 - no-show
-
-## In scope
-- execution harness
-- policy graph
-- clarification before action
-- process trace
-- replayable evaluation
-- non-parametric improvement loop

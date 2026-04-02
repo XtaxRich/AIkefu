@@ -1,19 +1,38 @@
 # 00 Repo Policy
 
-## Current use
-Treat `main` as a thesis and design-document branch.
+## Current stage
+The main branch is used as a thesis and system-design documentation center.
 
-## Note on existing code
-The current `src/` and `tests/` are temporary placeholders.
-They should not be used as the official implementation baseline.
+## Why the first code scaffold is removed
+The first `src/` and `tests/` version only provided placeholders. It did not define:
+- full policy graph schema
+- action authorization rules
+- trace schema
+- replay and scoring
+- experience update loop
+- experiment contracts
 
-## Rule for future work
-Build new modules from the docs in this repository, not from the placeholder code.
+Because of that, the first code version is not used as the official baseline.
 
-## What belongs in main
-- thesis positioning
+## What should stay in main
+- research question
 - literature matrix
-- architecture specs
-- data and evaluation specs
+- architecture and module specs
+- data contracts
+- evaluation protocol
 - experiment plan
-- module handoffs
+- module handoff
+
+## What should not go into main now
+- toy demo code
+- black-box scripts without trace
+- prompt-only logic without contracts
+- code without matching design docs
+
+## Merge gate for future code
+Any future implementation merged into `main` should have:
+1. a matching module brief
+2. input/output contracts
+3. minimal evaluation cases
+4. trace design
+5. failure-path notes

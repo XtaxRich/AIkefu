@@ -37,5 +37,5 @@
 - recovery success
 - cost per successful case
 
-## Eval rule
+## Evaluation rule
 Do not score only the final answer. Score the full trace.
